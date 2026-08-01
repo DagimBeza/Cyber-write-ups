@@ -118,17 +118,4 @@ By Breaking the LAN topologies I retrieved the flag.
 
 
 ## Screenshots
-
-![ 0](images/Intro to LAN 0.png)
-
-![ 1](images/Intro to LAN 1.png)
-
-![ 2](images/Intro to LAN 2.png)
-
-![ 3](images/Intro to LAN 3.png)
-
-![ 4](images/Intro to LAN 4.png)
-
-![ 5](images/Intro to LAN 5.png)
-
-![ 6](images/Intro to LAN 6.png)
+https://github.com/dagimbeza/Cyber-write-ups/tree/main/Cyber-write-ups/TryHackMe/Intro%20to%20LAN/images
