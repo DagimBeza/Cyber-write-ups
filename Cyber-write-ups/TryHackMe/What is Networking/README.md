@@ -110,14 +110,4 @@ purpose: to break poorly implemented security designs that assume that devices t
 
 ## Screenshots
 
-![ 1](images/What is Networking? 1.png)
-
-![ 2](images/What is Networking? 2.png)
-
-![ 3](images/What is Networking? 3.png)
-
-![ 4](images/What is Networking? 4.png)
-
-![ 5](images/What is Networking? 5.png)
-
-![ 6](images/What is Networking? 6.png)
+https://github.com/dagimbeza/Cyber-write-ups/tree/main/Cyber-write-ups/TryHackMe/What%20is%20Networking/images
