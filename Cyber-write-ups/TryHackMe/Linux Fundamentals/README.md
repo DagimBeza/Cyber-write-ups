@@ -90,14 +90,4 @@ Completed exercises involving:
 
 ## Screenshots
 
-![ 1](images/Linux Fundamentals 1.png)
-
-![ 2](images/Linux Fundamentals 2.png)
-
-![ 3](images/Linux Fundamentals 3.png)
-
-![ 4](images/Linux Fundamentals 4.png)
-
-![ 5](images/Linux Fundamentals 5.png)
-
-![ 6](images/Linux Fundamentals 6.png)
+https://github.com/dagimbeza/Cyber-write-ups/tree/main/Cyber-write-ups/TryHackMe/Linux%20Fundamentals/images
