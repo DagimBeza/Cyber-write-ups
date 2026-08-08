@@ -116,13 +116,13 @@ Attackers can:
 
 ### Screenshots
 
-    - Application Code:
+   - Application Code:   https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/OWASP%20TOP%2010%202025-%20Application%20Design%20Flaws/images/Task%203%20Application%20Code.png
 
-    - API Health:
+   - API Health: https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/OWASP%20TOP%2010%202025-%20Application%20Design%20Flaws/images/Task%203%20API%20Health.png
     
-    - API Process: 
+   - API Process: https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/OWASP%20TOP%2010%202025-%20Application%20Design%20Flaws/images/Task%203%20API%20Process.png
 
-    - Challenge Answer: 
+   - Challenge Answer: https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/OWASP%20TOP%2010%202025-%20Application%20Design%20Flaws/images/Task%203%20Challenge%20Answer.png
     
 ### Findings
 
