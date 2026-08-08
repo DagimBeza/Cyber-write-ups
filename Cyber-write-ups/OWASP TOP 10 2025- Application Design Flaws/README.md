@@ -24,7 +24,7 @@
 
   - Firefox Browser
 
-  - Burp Suite
+  - Terminal
 
   - Browser Developer Tools
 
