@@ -66,8 +66,9 @@
 
    - Application Homepage: https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/OWASP%20TOP%2010%202025-%20Application%20Design%20Flaws/images/Task%202%20Application%20Homepage.png
  
-   - Inspect available endpoints: 
-   - Challenge Completed:
+   - Inspect available endpoints: https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/OWASP%20TOP%2010%202025-%20Application%20Design%20Flaws/images/Task%202%20Inspect%20available%20endpoints%20.png
+     
+   - Challenge Completed: https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/OWASP%20TOP%2010%202025-%20Application%20Design%20Flaws/images/Task%202%20Challenge%20Completed.png
 
 ### Findings
 
@@ -115,13 +116,13 @@ Attackers can:
 
 ### Screenshots
 
-    - Application Code: 
+    - Application Code: https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/OWASP%20TOP%2010%202025-%20Application%20Design%20Flaws/images/Task%203%20Application%20Code.png
 
-    - API Health: 
+    - API Health:  https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/OWASP%20TOP%2010%202025-%20Application%20Design%20Flaws/images/Task%203%20API%20Health.png
+    
+    - API Process:  https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/OWASP%20TOP%2010%202025-%20Application%20Design%20Flaws/images/Task%203%20API%20Process.png
 
-    - API Process:
-
-    - Challenge Answer: 
+    - Challenge Answer:  https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/OWASP%20TOP%2010%202025-%20Application%20Design%20Flaws/images/Task%203%20Challenge%20Answer.png
 
 ### Findings
 
@@ -171,13 +172,13 @@ Attackers can:
 
 ### Screenshot
 
-- Encrypted Document: 
+- Encrypted Document: https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/OWASP%20TOP%2010%202025-%20Application%20Design%20Flaws/images/Task%204%20Encrypted%20Document.png
 
-- Source page:
+- Source page: https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/OWASP%20TOP%2010%202025-%20Application%20Design%20Flaws/images/Task%204%20Source%20page.png
 
-- Secret page:
-
-- Recovered Plaintext:
+- Secret page: https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/OWASP%20TOP%2010%202025-%20Application%20Design%20Flaws/images/Task%204%20Secret%20key.png
+  
+- Recovered Plaintext: https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/OWASP%20TOP%2010%202025-%20Application%20Design%20Flaws/images/Task%204%20Recovered%20Plaintext%20.png
 
 ### Findings
 
@@ -228,13 +229,15 @@ Attackers can:
 
 ### Screenshot
 
-   - Application Homepage: 
+   - Application Login: https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/OWASP%20TOP%2010%202025-%20Application%20Design%20Flaws/images/Task%205%20Application%20Login.png
 
-   - Application Source page: 
+   - Application Source page: https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/OWASP%20TOP%2010%202025-%20Application%20Design%20Flaws/images/Task%205%20Source%20page.png
 
-   - API Testing:
+   - API Testing: - https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/OWASP%20TOP%2010%202025-%20Application%20Design%20Flaws/images/Task%205%20API.png
+                 - https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/OWASP%20TOP%2010%202025-%20Application%20Design%20Flaws/images/Task%205%20API%20messages.png
 
-   - Challenge Completed: 
+   - Challenge Completed: - https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/OWASP%20TOP%2010%202025-%20Application%20Design%20Flaws/images/Task%205%20API%20messages%20user1.png
+                       - https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/OWASP%20TOP%2010%202025-%20Application%20Design%20Flaws/images/Task%205%20API%20messages%20admin.png
 
 ### Findings
 
@@ -277,5 +280,5 @@ Attackers can:
 
  ### Screenshot
 
-  - Completed:
+  - Completed: https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/OWASP%20TOP%2010%202025-%20Application%20Design%20Flaws/images/Task%206%20Completed.png
 
