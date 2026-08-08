@@ -3,11 +3,15 @@
 Documenting my cybersecurity learning journey through practical labs, penetration testing exercises, and CTF write-ups.
 
 
-## Identification
+## Student Information
 
 Name = Dagim Beza Genet
 
 ID = CTC-488-26
+
+Course = Cybesrsecurity
+
+
 
 ## TryHackMe Rooms
 
@@ -16,3 +20,5 @@ ID = CTC-488-26
 - What is Networking?
 
 - Intro to LAN
+
+- OWASP TOP 10 2025- Application Design Flaws
