@@ -37,7 +37,7 @@
 
 ### Screenshot
 
-- Room Overview: 
+- Room Overview: https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/OWASP%20TOP%2010%202025-%20Application%20Design%20Flaws/images/Task%201%20Room%20overview.png
 
 
 ## Task 2 – Security Misconfiguration
