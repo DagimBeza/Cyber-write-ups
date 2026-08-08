@@ -33,7 +33,7 @@
 
 ### Objective: 
 
- -Deploy the machine and understand the objectives of the room.
+ - Deploy the machine and understand the objectives of the room.
 
 ### Screenshot
 
@@ -72,7 +72,7 @@
 
 ### Findings
 
-    - The application exposed information that should not be publicly accessible because unnecessary endpoints remained enabled.
+   - The application exposed information that should not be publicly accessible because unnecessary endpoints remained enabled.
 
 ### Risk
 
@@ -86,13 +86,13 @@ Attackers can:
 
 ### Prevention
 
-    - Disable debugging
+   - Disable debugging
 
-    - Remove unnecessary endpoints
+   - Remove unnecessary endpoints
 
-    - Restrict administrative APIs
+   - Restrict administrative APIs
 
-    - Implement authentication
+   - Implement authentication
 
 
 
@@ -198,15 +198,15 @@ Attackers can:
 
 ### Prevention
 
-    - Store secrets securely
+   - Store secrets securely
 
-    - Use strong encryption
+   - Use strong encryption
 
-    - Rotate keys regularly
+   - Rotate keys regularly
 
-    - Never hardcode secrets
+   - Never hardcode secrets
 
-    - Use secure key management systems
+   - Use secure key management systems
 
 
 ### Task 5 – Insecure Design
