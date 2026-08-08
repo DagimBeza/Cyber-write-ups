@@ -68,7 +68,7 @@
 
     - Inspect available endpoints: https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/OWASP%20TOP%2010%202025-%20Application%20Design%20Flaws/images/Task%202%20Inspect%20available%20endpoints%20.png
 
-    - Challenge Completed:
+    - Challenge Completed: https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/OWASP%20TOP%2010%202025-%20Application%20Design%20Flaws/images/Task%202%20Challenge%20Completed.png
 
 ### Findings
 
