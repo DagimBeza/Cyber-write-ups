@@ -116,14 +116,14 @@ Attackers can:
 
 ### Screenshots
 
-    - Application Code: https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/OWASP%20TOP%2010%202025-%20Application%20Design%20Flaws/images/Task%203%20Application%20Code.png
+    - Application Code:
 
-    - API Health:  https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/OWASP%20TOP%2010%202025-%20Application%20Design%20Flaws/images/Task%203%20API%20Health.png
+    - API Health:
     
-    - API Process:  https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/OWASP%20TOP%2010%202025-%20Application%20Design%20Flaws/images/Task%203%20API%20Process.png
+    - API Process: 
 
-    - Challenge Answer:  https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/OWASP%20TOP%2010%202025-%20Application%20Design%20Flaws/images/Task%203%20Challenge%20Answer.png
-
+    - Challenge Answer: 
+    
 ### Findings
 
 - The application relied on an outdated dependency containing a known vulnerability.
