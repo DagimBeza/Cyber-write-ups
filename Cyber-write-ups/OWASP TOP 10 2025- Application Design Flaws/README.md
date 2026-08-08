@@ -64,7 +64,7 @@
 
 ### Screenshots
 
-    - Application Homepage: 
+    - Application Homepage: https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/OWASP%20TOP%2010%202025-%20Application%20Design%20Flaws/images/Task%202%20Application%20Homepage.png
 
     - Inspect available endpoints:
 
