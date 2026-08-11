@@ -12,20 +12,18 @@
 
 ## Tools Used
 
-| Tool              | Purpose                                  |
-| ----------------- | ---------------------------------------- |
 
-| Browser           | Interacting with the web application     |
+ Browser     -       Interacting with the web application     
 
-| Burp Suite        | Intercepting and modifying HTTP requests |
+ Burp Suite   -      Intercepting and modifying HTTP requests 
 
-| Burp Proxy        | Capturing requests                       |
+ Burp Proxy   -      Capturing requests                       
 
-| Burp Repeater     | Testing modified requests                |
+ Burp Repeater   -   Testing modified requests                
 
-| HTTP              | Understanding requests and responses     |
+ HTTP         -      Understanding requests and responses     
 
-| API documentation | Discovering API endpoints and methods    |
+ API documentation  -  Discovering API endpoints and methods    
 
 
 ## LAB 1 — Exploiting an API Endpoint Using Documentation
@@ -86,29 +84,29 @@ The application exposes documentation containing information about API functiona
 
 Attackers can use the documentation to:
 
-    Discover hidden functionality
+   - Discover hidden functionality
 
-    Identify endpoints
+   - Identify endpoints
 
-    Identify HTTP methods
+   - Identify HTTP methods
 
-    Understand parameters
+   - Understand parameters
 
-    Build malicious requests
+   - Build malicious requests
 
 ### Remediation
 
 API documentation should:
 
-    Be appropriately access-controlled.
+   - Be appropriately access-controlled.
 
-    Avoid exposing sensitive administrative endpoints.
+   - Avoid exposing sensitive administrative endpoints.
 
-    Require authentication where appropriate.
+   - Require authentication where appropriate.
 
-    Be reviewed before deployment.
+   - Be reviewed before deployment.
 
-    Not be treated as a security boundary.
+   - Not be treated as a security boundary.
 
 ## LAB 2 — Finding and Exploiting an Unused API Endpoint
 
@@ -168,25 +166,25 @@ An old API endpoint remains accessible even though the current application does 
 
 An attacker may discover functionality that:
 
-    Was forgotten by developers.
+ - Was forgotten by developers.
 
-    Is insufficiently protected.
+ - Is insufficiently protected.
 
-    Is not tested as part of the current application.
+ - Is not tested as part of the current application.
 
-    Provides access to sensitive operations.
+ - Provides access to sensitive operations.
 
 ### Remediation
 
-    Remove obsolete endpoints.
+  -  Remove obsolete endpoints.
 
-    Maintain an API inventory.
+  -  Maintain an API inventory.
 
-    Test all active endpoints.
+  - Test all active endpoints.
 
-    Apply authentication and authorization consistently.
+  - Apply authentication and authorization consistently.
 
-    Monitor API usage.
+  - Monitor API usage.
 
 
 ## LAB 3 — Exploiting a Mass Assignment Vulnerability
@@ -237,16 +235,16 @@ The application automatically binds user-supplied parameters to internal object 
 
 ### Impact
 
-    Privilege escalation
+ - Privilege escalation
 
-    Unauthorized account modification
+  - Unauthorized account modification
 
-    Modification of security settings
+  - Modification of security settings
 
-    Modification of financial values
+  - Modification of financial values
 
-    Changing account ownership
+  - Changing account ownership
 
 ### Remediation
 
-   Use an allowlist of writable properties.
+  - Use an allowlist of writable properties.
