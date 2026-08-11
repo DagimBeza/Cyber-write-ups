@@ -193,35 +193,36 @@ An attacker may discover functionality that:
 
 ### Initial application
 
-- Login:
+- Login: https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/API%20testing/images/L3%20Login.png
 
-- Homepage:
+- Homepage: https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/API%20testing/images/L3%20Homepage.png
 
 ### Capture a Normal Request
 
-- Normal API request and response: 
+- Normal API request and response: https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/API%20testing/images/L3%20Normal%20API%20request%20and%20Response.png
 
 
 ### Compare GET and POST
 
-- Compare:
+- Compare: https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/API%20testing/images/L3%20Compare%20GET%20and%20POST.png
 
 ### Modify the Request
 
 - Add hidden parameter:
 
-- Modified request and response: 
-
+- Modified request and response: https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/API%20testing/images/L3%20Modified%20request%20and%20response.png
 
 ### Verify Privilege Change
 
 - Refresh the page or revisit the relevant functionality.
 
-- Privilege/state change:
+- Privilege/state change: https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/API%20testing/images/L3%20Previlage%20change.png
 
 ### Result
 
 - I identified a mass assignment vulnerability by comparing the properties submitted in the request with properties returned by the server. An internal property that should not have been controlled by the client was accepted when included in the request. This allowed the application's internal state to be modified and enabled completion of the lab.
+
+- Lab solved: https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/API%20testing/images/L3%20Lab%20solved.png
 
 ### Vulnerability
 
@@ -247,4 +248,22 @@ An attacker may discover functionality that:
 
   - Use an allowlist of writable properties.
 
+## Lessons Learned 
 
+### API Documentation
+
+- Learned how exposed API documentation can reveal hidden endpoints, parameters, and HTTP methods.
+  
+- Learned to use Burp Suite to analyze and interact with documented API endpoints.
+  
+### Unused API Endpoint
+
+- Learned that old or unused API endpoints may still be accessible.
+  
+- Learned to inspect API traffic and JavaScript to discover hidden endpoints.
+  
+### Mass Assignment
+
+- Learned that APIs may accept unexpected parameters that users should not control.
+  
+- Learned to identify hidden properties and test whether they can be modified to gain unauthorized privileges.
