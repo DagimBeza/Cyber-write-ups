@@ -13,17 +13,17 @@
 ## Tools Used
 
 
- Browser     -       Interacting with the web application     
+- Browser     -       Interacting with the web application     
 
- Burp Suite   -      Intercepting and modifying HTTP requests 
+- Burp Suite   -      Intercepting and modifying HTTP requests 
 
- Burp Proxy   -      Capturing requests                       
+- Burp Proxy   -      Capturing requests                       
 
- Burp Repeater   -   Testing modified requests                
+- Burp Repeater   -   Testing modified requests                
 
- HTTP         -      Understanding requests and responses     
+- HTTP         -      Understanding requests and responses     
 
- API documentation  -  Discovering API endpoints and methods    
+- API documentation  -  Discovering API endpoints and methods    
 
 
 ## LAB 1 — Exploiting an API Endpoint Using Documentation
@@ -34,51 +34,50 @@
 
 ### Start the Lab
 
-Lab started: 
+- Lab started: https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/API%20testing/images/L1%20Lab%20started.png
 
 ### Initial Reconnaissance
 
-- Initial application: 
+- Initial application: https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/API%20testing/images/L1%20Initial%20application%20.png
 
-- Login: 
+- Login: https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/API%20testing/images/L1%20Login.png
 
-- Update email:
+- Update email: https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/API%20testing/images/L1%20update%20email.png
 
 
 ### Capture Requests Using Burp Suite
 
-- HTTP request captured using Burp Proxy: 
+- HTTP request captured using Burp Proxy: https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/API%20testing/images/L1%20HTTP%20Request.png
 
-- Modified request:
+- Modified request: https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/API%20testing/images/L1%20Modified%20request.png
 
-- Modified response:
+- Modified response: https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/API%20testing/images/L1%20Modified%20response.png
 
-- Show response in browser:
 
 ### Look for API Documentation
 
-- API Documentation:
+- API Documentation: https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/API%20testing/images/L1%20API%20Documentation.png
 
 ### Inspect the Documentation
 
-Exposed API documentation: 
+- Exposed API documentation: https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/API%20testing/images/L1%20Exposed%20API%20documentation.png
 
-Delete carlos:
+- Delete carlos: https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/API%20testing/images/L1%20Delete%20carlos.png
 
  
 ### Result
 
 - The API documentation exposed an API endpoint that was not apparent from the normal application interface.  By analyzing the documented endpoint and sending the appropriate HTTP request, I was able to access the required functionality and complete the lab.
 
-Lab solved: 
+- Lab solved: https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/API%20testing/images/L1%20Lab%20solved.png
 
 ### Vulnerability
 
-Exposed API documentation
+- Exposed API documentation
 
 ### Root Cause
 
-The application exposes documentation containing information about API functionality that should not necessarily be publicly accessible.
+- The application exposes documentation containing information about API functionality that should not necessarily be publicly accessible.
 
 ### Security Impact
 
