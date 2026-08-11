@@ -13,7 +13,7 @@ Course = Cybesrsecurity
 
 
 
-## TryHackMe Rooms
+## Labs and Rooms
 
 - Linux Fundamentals part 1
 
@@ -22,3 +22,5 @@ Course = Cybesrsecurity
 - Intro to LAN
 
 - OWASP TOP 10 2025- Application Design Flaws
+
+- API Testing
