@@ -1,15 +1,15 @@
 # Cyber-write-ups
 
-Documenting my cybersecurity learning journey through practical labs, penetration testing exercises, and CTF write-ups.
+- Documenting my cybersecurity learning journey through practical labs, penetration testing exercises, and CTF write-ups.
 
 
 ## Student Information
 
-Name = Dagim Beza Genet
+- Name = Dagim Beza Genet
 
-ID = CTC-488-26
+- ID = CTC-488-26
 
-Course = Cybesrsecurity
+- Course = Cybesrsecurity
 
 
 
