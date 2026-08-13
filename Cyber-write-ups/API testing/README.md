@@ -67,7 +67,9 @@
  
 ### Result
 
-- The API documentation exposed an API endpoint that was not apparent from the normal application interface.  By analyzing the documented endpoint and sending the appropriate HTTP request, I was able to access the required functionality and complete the lab.
+- The API documentation exposed an API endpoint that was not apparent from the normal application interface. 
+
+- By analyzing the documented endpoint and sending the appropriate HTTP request, I was able to access the required functionality and complete the lab.
 
 - Lab solved: https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/API%20testing/images/L1%20Lab%20solved.png
 
@@ -112,7 +114,8 @@ API documentation should:
 ### Objective
 
 - The objective is to identify an unused API endpoint and exploit it.
-An endpoint may still be accessible even if the application's current frontend no longer uses it.
+
+- An endpoint may still be accessible even if the application's current frontend no longer uses it.
 
 ### Login
 
@@ -147,7 +150,9 @@ An endpoint may still be accessible even if the application's current frontend n
 
 ### Result
 
-- During reconnaissance, I identified an API endpoint that was not used by the application's current frontend.  By analyzing existing API requests and testing the available API functionality, I discovered that the unused endpoint was still accessible. I then used it to complete the lab.
+- During reconnaissance, I identified an API endpoint that was not used by the application's current frontend.
+
+- By analyzing existing API requests and testing the available API functionality, I discovered that the unused endpoint was still accessible. I then used it to complete the lab.
 
 - Lab solved: https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/API%20testing/images/L2%20Lab%20solved.png
 
@@ -220,7 +225,9 @@ An attacker may discover functionality that:
 
 ### Result
 
-- I identified a mass assignment vulnerability by comparing the properties submitted in the request with properties returned by the server. An internal property that should not have been controlled by the client was accepted when included in the request. This allowed the application's internal state to be modified and enabled completion of the lab.
+- I identified a mass assignment vulnerability by comparing the properties submitted in the request with properties returned by the server.
+
+- An internal property that should not have been controlled by the client was accepted when included in the request. This allowed the application's internal state to be modified and enabled completion of the lab.
 
 - Lab solved: https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/API%20testing/images/L3%20Lab%20solved.png
 
