@@ -28,18 +28,18 @@
 
  - Start the Airplane machine in TryHackMe and wait until the platform assigns an address. 
 
- - Start the machine: 
+ - Start the machine: https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/Airplane/screenshots/start%20the%20machine.png
 
 
 ##  Nmap Scan
 
  - A full TCP scan establishes the attack surface. The important ports are 22/SSH, 6048/an unusual service, and 8000/HTTP. 
 
- - Full Nmap scan:
+ - Full Nmap scan: https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/Airplane/screenshots/nmap%20full%20scan.png
 
  - Run service/version and default-script enumeration against the three discovered ports. Port 8000 is a Python/Werkzeug web service. Port 6048 is deliberately unusual and deserves follow-up rather than being ignored.
 
- - Detailed Nmap scan:
+ - Detailed Nmap scan: https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/Airplane/screenshots/nmap%20detail.png
 
 ## Configuration
 
