@@ -48,7 +48,7 @@
 
 - The web application redirects to: airplane.thm
 
-- /etc/hosts: 
+- /etc/hosts: https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/Airplane/screenshots/hosts.png
 
 
 ## Enumeratation
@@ -57,8 +57,7 @@
 
  - That makes this parameter worth testing for Local File Inclusion (LFI) / Path Traversal.
 
- - Gobuster results:
-
+ - Gobuster results: 
 
 ## Identify the LFI / Path Traversal
 
@@ -68,7 +67,7 @@
 
  - The application returns /etc/passwd. This is the first major vulnerability
 
- - LFI: 
+ - LFI: https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/Airplane/screenshots/LFI.png
 
 
 ## Find the Flask Application
@@ -92,7 +91,7 @@
 
  - Because the application can read /proc/<PID>/..., we can enumerate process IDs.
 
- - /proc enumeration:
+ - /proc enumeration: https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/Airplane/screenshots/proc.png
 
 
 ## Identify the GDB Process
@@ -107,8 +106,6 @@
  
    network restrictions, an attacker can  potentially connect to it and manipulate a debugging session. 
 
- - GDB discovery:
-
 
 ## Reverse Shell Configuration
 
@@ -122,15 +119,15 @@
 
 - Receive the Reverse Shell by returning to the listenner.
 
-- Payload Generation:
+- Payload Generation: https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/Airplane/screenshots/payload.png
 
 - Use the publicly documented Airplane GDB-server exploitation workflow to connect to TCP/6048, transfer the payload, mark it executable, and trigger execution.
 
-- GDB connection:
+- GDB connection: https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/Airplane/screenshots/gdb.png
 
 - The reverse connection should arrive at the listener as hudson. Confirm with whoami and optionally upgrade the shell with Python PTY. This establishes the initial foothold.
 
-- Reverse shell:
+- Reverse shell: 
 
 
 ## Upgrade to SSH Access
@@ -141,7 +138,7 @@
 
  - Set permissions and connect.
 
- - SSH session:
+ - SSH session: https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/Airplane/screenshots/ssh.png
 
 
 ## Retrieve the User Flag
@@ -150,7 +147,7 @@
 
  - Search for the flag, then read it.
 
- - User flag: 
+ - User flag: https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/Airplane/screenshots/userflag.png
 
 
 ## Privilege Escalation
@@ -163,7 +160,7 @@
 
  - Because find executes with Carlos's effective privileges, its command-execution functionality can be       abused to obtain a shell with Carlos's effective UID.
 
- - SUID enumeration:
+ - SUID enumeration: https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/Airplane/screenshots/suid.png
 
 
  ## Check Sudo Privileges
@@ -178,10 +175,6 @@
   
   - This is vulnerability. As dangerous wildcard use in sudo configuration can give elvated previlages.
 
-  - Carlos shell:
-
-  - Wildcard:
-
 
 ## Create and Execute the Malicious Ruby Script
 
@@ -193,7 +186,7 @@
 
  - Run ls -la /bin/bash to see SUID permission
 
- - Ruby exploit:
+ - Ruby exploit: https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/Airplane/screenshots/ruby.png
 
 
 ## Obtain a Root Shell
@@ -204,18 +197,14 @@
 
  - -p option preserves the effective privileges of the SUID Bash binary.
 
- - Then whoami and verify id.
-
- - SUID Bash:
-
- - Root shell:
+ - Then whoami and verify id. 
 
 
 ## Retrieve root flag
 
  - Search for the flag and read it.
 
- - Root flag:
+ - Root flag: https://github.com/DagimBeza/Cyber-write-ups/blob/main/Cyber-write-ups/Airplane/screenshots/rootflag.png
 
 ## Lessons Learned
 
